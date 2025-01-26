@@ -505,7 +505,7 @@ else if (opr == "*" ){
 
 var time = +prompt(`Enter Your Time and `);
 
-if(time >= 0000 && time < 1200){
+if(time >= 0 && time < 1200){
     document.write(`Good Morning`);
 }else if(time >= 1200 && time < 1700){
     document.write(`Good Afternoon`);
@@ -596,9 +596,9 @@ var ty = 8;
 var tyinp = +prompt("Enter Your Number");
 
 if(ty == tyinp){
-    alert{`${ty} is equal to ${tyinp}`}
+    alert(`${ty} is equal to ${tyinp}`)
 }else{
-    alert{`${ty} is Not equal to ${tyinp}`}
+    alert(`${ty} is Not equal to ${tyinp}`)
 }
 
 
